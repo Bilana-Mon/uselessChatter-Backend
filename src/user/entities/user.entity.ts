@@ -1,1 +1,8 @@
-export class User {}
+import { Contact } from "./contact";
+export class User {
+    nickname: string;
+    phoneNumber: string;
+    email: string;
+    chatsConnected: string[];
+    contacts: Contact[];
+}
