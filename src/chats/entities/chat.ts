@@ -4,5 +4,5 @@ export class Chat {
     timeCreated: Date;
     adminId: string;
     usersConnected: string[];
-    messages: Message[];
+    messages?: Message[];
 }
